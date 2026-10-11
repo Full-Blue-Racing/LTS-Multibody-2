@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('FBR25_CHASSIS-SCHEME_Default_sldprt.STEP',
+    '2026-03-13T11:10:39',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2024',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #2 ) ;
+#2 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#3 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #5 ) ) ;
+#4 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #2, 'design' ) ;
+#5 = PRODUCT ( 'FBR25_CHASSIS-SCHEME_Default_sldprt', 'FBR25_CHASSIS-SCHEME_Default_sldprt', '', ( #9 ) ) ;
+#6 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #7 ) ;
+#7 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #10, #4 ) ;
+#8 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#9 = PRODUCT_CONTEXT ( 'NONE', #8, 'mechanical' ) ;
+#10 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #5, .NOT_KNOWN. ) ;
+#11 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #8 ) ;
+ENDSEC;
+END-ISO-10303-21;
